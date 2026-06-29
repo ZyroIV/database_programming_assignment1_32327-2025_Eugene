@@ -63,16 +63,7 @@ CREATE TABLE Order_Details (
 
 ---
 
-## ER Diagram
 
-![ER Diagram](screenshots/er_diagram.png)
-
-> Entity-Relationship diagram showing the four tables and their relationships:  
-> - A **Customer** places many **Orders** (one-to-many)  
-> - An **Order** contains many **Order_Details** (one-to-many)  
-> - A **Product** appears in many **Order_Details** (one-to-many)
-
----
 
 ## CTE Implementations
 
